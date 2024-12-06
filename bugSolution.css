@@ -1,0 +1,11 @@
+/* bugSolution.css */
+.container {
+  display: flex;
+  width: 500px; /* Explicit width added */
+}
+
+.item {
+  width: calc(100% - 10px);
+  background-color: lightblue;
+  padding: 5px;
+}
